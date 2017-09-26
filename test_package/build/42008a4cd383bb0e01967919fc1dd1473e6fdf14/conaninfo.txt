@@ -1,0 +1,36 @@
+[settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=15
+    os=Windows
+
+[requires]
+    utility-lib/0.1.0
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Debug
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=15
+    os=Windows
+
+[full_requires]
+    utility-lib/0.1.0@carsim/testing:8cf7aede440dc8aceb12aff5e54d627794c7bf2d
+
+[full_options]
+    utility-lib:shared=False
+
+[scope]
+    dev=True
+
+[recipe_hash]
+
+
+[env]
+
