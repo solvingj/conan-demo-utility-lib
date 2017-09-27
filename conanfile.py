@@ -11,7 +11,7 @@ class UtilitylibConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=False"
     generators = "cmake"
-    exports_sources = "*.sln", "*.cpp", "*.hpp", "*.vcxproj", "*.filters"
+    exports_sources = "*.txt", "*.bat", "*.sln", "*.cpp", "*.hpp", "*.vcxproj", "*.filters"
 
     def build(self):
         build_command = tools.msvc_build_command(self.settings, "utility-lib.sln", targets=["utility-lib"])
